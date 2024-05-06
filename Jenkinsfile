@@ -22,7 +22,7 @@ pipeline {
                 echo "Testing"
                 sh '''
                 cd myapp
-                python3 fetch
+                python3 fetch.py
                 '''
             }
         }
